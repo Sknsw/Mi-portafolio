@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rjstreek - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>rjstreek</h1>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#acerca-de">Acerca de mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="proyecto">
+                <h3>SantoGrial</h3>
+                <p>Bot de trading con inteligencia artificial.</p>
+                <p>Tecnologías utilizadas: Python, TensorFlow, API de trading.</p>
+                <a href="santogrial.html" class="btn">Ver más</a>
+            </div>
+            <div class="proyecto">
+                <h3>Nixtex</h3>
+                <p>Software de alta calidad.</p>
+                <p>Tecnologías utilizadas: Java, C#, SQL Server.</p>
+                <a href="nixtex.html" class="btn">Ver más</a>
+            </div>
+            <div class="proyecto">
+                <h3>Forfri</h3>
+                <p>App de ventas.</p>
+                <p>Tecnologías utilizadas: React Native, Firebase.</p>
+                <a href="forfri.html" class="btn">Ver más</a>
+            </div>
+        </section>
+
+        <section id="acerca-de">
+            <h2>Acerca de mí</h2>
+            <p>Soy un ingeniero de software apasionado por la programación y la creación de soluciones innovadoras. Con una sólida formación académica y experiencia en el campo, me dedico a desarrollar software de alta calidad y a enseñar a otros a hacer lo mismo.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de correo electrónico en info@rjstreek.com o mediante el siguiente formulario:</p>
+            <form action="submit.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 rjstreek | Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
